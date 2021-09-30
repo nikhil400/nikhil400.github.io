@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+#videoBG {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#papa{
+    margin-top: 5em;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items:center;
+    
+
+}
+#parent_all{
+    background-color: rgb(5,54,110,0.7);
+    
+}
+label,input{
+    font-family: sans-serif;
+    
+    font-size: larger;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#form_parent{
+    box-sizing: border-box;
+    min-width: 200px;
+    color: rgb(202, 210, 197);
+    border: 4px ridge rgb(202, 210, 197);
+  
+    margin: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    
+    
+    min-height: 50vh;
+    display: flex;
+    justify-content:left;
+    align-items: center ;
+}
+
+h1{
+    
+    color: white;
+    font-size: 3em;
+    margin: 8px;
+    min-width: 200px;
+}
+p{
+    color: white;
+    font-size: 1.3em;
+    margin: 8px;
+    min-width: 200px;
+}
+a{
+    text-decoration: none;
+    color: cyan;
+}
+
+
+
+
+
+
+
+
+
+.navbar {
+  background-color: #05366e;
+  color: antiquewhite;
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 1366px;
+  z-index: 99;
+}
+
+.navbar a {
+  float: left;
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  padding: 12px;
+}
+
+.navbar .logo {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-right a:hover {
+  color:red;
+}
+
+.navbar-right a {
+  transition: color 0.5s ease;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.navbar .icon {
+  display: none;
+}
+#topnav img{
+  width: 3em;
+  position:static;
+  top: 0;
+  left: 0;
+  float: left;
+
+}

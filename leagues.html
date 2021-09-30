@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Top football leagues
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styleleague.css">
+</head>
+<body>
+
+<div id="topnav" class="navbar">
+  <a href="main.html" class="logo">
+    One
+    <span style="color: greenyellow">Football</span>
+  </a>
+  <div class="navbar-right menu">
+    <a href="main.html" class="active">
+      Home
+    </a>
+    <a href="leagues.html">
+      Leagues
+    </a>
+    <a href="picstrial.html">
+      Photos
+    </a>
+    <a href="videos.html">
+      Videos
+    </a>
+  </div>
+  <div class="navbar-right">
+    <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<div id="slideshow-container" class="slideshow-container">
+  <div class="slide-item bgimg fade" style="background-image: url('pl1.jpg');">
+    <div class="caption">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br>
+      <button>
+        <a class="table" href="https://www.google.com/search?q=premier+league+table&rlz=1C1PNFB_enIN944IN944&oq=premier+league+ta&aqs=chrome.0.0i433j69i57j0l2j0i131i433j0l5.10278j0j4&sourceid=chrome&ie=UTF-8#sie=lg;/g/11p44qhs93;2;/m/02_tc;st;fp;1;;">Standings</a> 
+      </button>
+    </div>
+  </div>
+
+  <div class="slide-item bgimg fade" style="background-image: url('laliga.jpg');">
+    <div class="caption">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br>
+      <button>
+        <a class="table" href="https://www.google.com/search?q=la+liga+table&rlz=1C1PNFB_enIN944IN944&ei=HX39YMO2FryX4-EPq7qqCA&oq=la+liga+&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCAAQsQMyBQgAELEDMgUIABCxAzICCAAyAggAMgUIABCxAzIFCAAQsQMyCAgAELEDEIMBMggILhCxAxCDATIICAAQsQMQgwE6BwgAEEcQsAM6BwgAELADEEM6DQguELADEMgDEEMQkwI6CgguELADEMgDEENKBQg4EgExSgQIQRgAUIyiAViMogFglLMBaAFwAngAgAHfAYgBqwOSAQMyLTKYAQCgAQGqAQdnd3Mtd2l6yAEPwAEB&sclient=gws-wiz#sie=lg;/g/11mqlmppsd;2;/m/09gqx;st;fp;1;;">Standings</a> 
+    </button>
+    </div>
+  </div>
+  
+  <div class="slide-item bgimg fade" style="background-image: url('seriea.jpg');">
+    <div class="caption">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br>
+      <button>
+        <a class="table" href="https://www.google.com/search?q=serie+a+standings&rlz=1C1PNFB_enIN944IN944&oq=serie+a+&aqs=chrome.3.69i59l2j46i433j0i433j0j0i433j0j0i433j0.4934j0j9&sourceid=chrome&ie=UTF-8#sie=lg;/g/11n0vx7n5d;2;/m/03zv9;st;fp;1;;">Standings</a> 
+    </button>
+    </div>
+  </div>
+ 
+  <div class="slide-item bgimg fade" style="background-image: url('bundesliga.png');">
+    <div class="caption">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br>
+      <button>
+       <a class="table" href="https://www.google.com/search?q=bundesliga+table&rlz=1C1PNFB_enIN944IN944&oq=bundesliga&aqs=chrome.2.69i59j46i433j0i433j46i131i433j0i433j0j0i433j0j0i433j0.4749j0j9&sourceid=chrome&ie=UTF-8#sie=lg;/g/11m__0kr76;2;/m/037169;st;fp;1;;">Standings</a> 
+    </button>
+    </div>
+  </div>
+
+  <div class="slide-item bgimg fade" style="background-image: url('isl.jpg');">
+    <div class="caption">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <button>
+        <a class="table" href="https://www.google.com/search?q=isl+2020-21+points+table&rlz=1C1PNFB_enIN944IN944&ei=K379YMuIMN6X4-EPpriNqAg&oq=isl+table&gs_lcp=Cgdnd3Mtd2l6EAEYAjIHCAAQRxCwAzIHCAAQRxCwAzIHCAAQRxCwAzIHCAAQRxCwAzIHCAAQRxCwAzIHCAAQRxCwAzIHCAAQRxCwAzIHCAAQRxCwAzIHCAAQsAMQQzINCC4QsAMQyAMQQxCTAjIKCC4QsAMQyAMQQzIKCC4QsAMQyAMQQzIKCC4QsAMQyAMQQzIKCC4QsAMQyAMQQzIKCC4QsAMQyAMQQ0oFCDgSATFKBAhBGABQAFgAYNgoaAFwAngAgAG0AYgBtAGSAQMwLjGYAQCqAQdnd3Mtd2l6yAEPwAEB&sclient=gws-wiz#sie=lg;/g/11j5c2bb2w;2;/m/0ynr_sq;st;fp;1;;">Standings</a>
+    </button>
+    </div>
+  </div>
+
+  <div id="slide-control" class="slide-control">
+    <span class="dot" onclick="chooseSlide(0)"></span>
+    <span class="dot" onclick="chooseSlide(1)"></span>
+    <span class="dot" onclick="chooseSlide(2)"></span>
+    <span class="dot" onclick="chooseSlide(3)"></span>
+    <span class="dot" onclick="chooseSlide(4)"></span>
+  </div>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>

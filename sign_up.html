@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling_login_page.css">
+    <title>OneFootball</title>
+</head>
+<video id="videoBG" autoplay muted loop>
+    <source src="football.mp4" type="video/mp4">
+</video>
+
+<body>
+    <div id="topnav" class="navbar">
+        <img src="logo.png"
+        alt="Logo">
+        <a href="#" class="logo">
+            One
+            <span style="color: greenyellow">Football</span>
+        </a>
+        <div class="navbar-right menu">
+            <a href="main.html" class="active">
+                Home
+            </a>
+
+            <a href="#">
+                Leagues
+            </a>
+            <a href="picstrial.html">
+                Photos
+            </a>
+            <a href="#">
+                Videos
+            </a>
+        </div>
+        <div class="navbar-right">
+            <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div id=papa>
+        <div id=parent_all>
+            <div>
+                <h1>OneFootball.com</h1>
+            </div>
+            <div id="form_parent">
+                <form action="db.php" method="POST">
+
+                    <div><label for="uname" class="labels">Create a Username:</label></div>
+                    <div><input id="uname" class="input_box" type="text" width="100" placeholder="Type your username"
+                            name="uname" required>
+                    </div>
+                    <div><label for="pwd" class="lables">Create a Password:</label></div>
+                    <div>
+                        <input id="pwd" class="input_box" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                            width="100" placeholder="Type your password" name="pwd" required>
+                    </div>
+
+                    <div id="button_parent">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset </button>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <p>Already have a account login <a href="login_page.html">here</a> </p>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        function validateForm() {
+            let x = document.forms["myForm"]["uname"].value;
+            let y = document.forms["myForm"]["pwd"].value;
+            if (x == "" || y == "") {
+                alert("Name or password must be filled out");
+                return false;
+            }
+        }
+
+    </script>
+</body>
+
+</html>

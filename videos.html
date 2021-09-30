@@ -1,0 +1,198 @@
+<html>
+
+<head>
+    <title>OneFootball</title>
+    <link rel="stylesheet" href="styling_login_page.css">
+    <style>
+        body {
+
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+                url(g3.jpg);
+
+        }
+
+        .navbar {
+            background-color: #05366e;
+            color: antiquewhite;
+
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            max-width: 1366px;
+            z-index: 99;
+        }
+
+        .navbar a {
+            float: left;
+            color: var(--white);
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 25px;
+            padding: 12px;
+        }
+
+
+
+        .navbar .logo {
+            font-size: 35px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .navbar-right a:hover {
+            color: red;
+        }
+
+        .navbar-right a {
+            transition: color 0.5s ease;
+        }
+
+        .navbar-right {
+            float: right;
+        }
+
+        .navbar .icon {
+            display: none;
+        }
+
+        #topnav img {
+            width: 3em;
+            position: static;
+            top: 0;
+            left: 0;
+            float: left;
+
+
+        }
+
+        #left_poster img {
+            position: fixed;
+
+            width: 25%;
+            height: 100vh;
+            margin-top: 7px;
+            margin-bottom: 7px;
+            margin-right: 2px;
+        }
+
+        
+
+        #right_poster img {
+
+            position:fixed;
+            right:0;
+            width: 25%;
+            height: 100vh;
+            margin-top: 7px;
+            margin-bottom: 7px;
+            margin-right: 2px;
+        }
+
+        #forvid {
+
+            margin: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .videos {
+            margin: 10px;
+            height: 350px;
+
+        }
+
+        @media (max-width: 1230px) {
+            #right_poster {
+                display: none;
+            }
+
+            #left_poster {
+                display: none;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="topnav" class="navbar">
+        <img src="logo.png"
+            alt="Logo">
+        <a href="#" class="logo">
+            One
+            <span style="color: greenyellow">Football</span>
+        </a>
+        <div class="navbar-right menu">
+            <a href="main.html" class="active">
+                Home
+            </a>
+            <a href="#">
+                Leagues
+            </a>
+            <a href="picstrial.html">
+                Photos
+            </a>
+            <a href="#">
+                Videos
+            </a>
+        </div>
+    </div>
+    <div id="left_poster">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/51xS-WiK67L._SL1000_.jpg" alt="left_logo">
+    </div>
+    <div id="right_poster">
+        <img src="https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-football-poster-background-image_147885.jpg"
+            alt="right logo">
+    </div>
+
+    <div id="forvid">
+
+        <div class="videos">
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/-ccNkksrfls " frameborder="3px"
+                allowfullscreen></iframe>
+            </iframe>
+        </div>
+        <div class="videos">
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/7D7C-P-DVyg " frameborder="3px"
+                allowfullscreen></iframe>
+        </div>
+        <div class="videos">
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/WXg8P0u9W9I"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="videos">
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/itnaTEsMdEA" frameborder="3px"
+                allowfullscreen></iframe>
+        </div>
+        <div class="videos">
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/JKN0YXXzWL4?start=20"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="videos">
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/zE_Lb3VH-kw" frameborder="3px"
+                allowfullscreen></iframe>
+        </div>
+        <div class="videos">
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/bQBlNY60r5g" frameborder="3px"
+                allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

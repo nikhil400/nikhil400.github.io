@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow: hidden;
+}
+.one {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url(g3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.nav-bar {
+  display: flex;
+  padding: 40px, 120px;
+}
+.nav-logo img {
+  width: 120px;
+  margin-left: 120px;
+  margin-top: 13px;
+}
+.nav-links {
+  flex: 1;
+}
+.nav-links ul a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 19px;
+}
+.nav-links ul {
+  margin-left: 50px;
+  display: inline;
+}
+.nav-links ul li {
+  list-style-type: none;
+  padding: 8px 25px;
+  margin-top: 57px;
+  display: inline-block;
+}
+.nav-links ul li::after {
+  content: "";
+  width: 0;
+  height: 5px;
+  background: navajowhite;
+  display: block;
+  margin: auto;
+  transition: 0.8s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+.btn {
+  padding: 10px 20px;
+  border: 0;
+  background-color: navajowhite;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-links .btn {
+  float: right;
+  margin-top: 57px;
+  margin-right: 35px;
+}
+.banner-title {
+  margin: 240px 130px;
+}
+.banner-title h1 {
+  color: azure;
+  text-align: center;
+  font-size: 65px;
+}
+.banner-title p {
+  color: azure;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.vertical-bar {
+  height: 100%;
+  background: azure;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.search-icon {
+  height: 60%;
+  width: 90px;
+}
+.search-icon img {
+  margin: 45px 23px;
+  display: block;
+  color: black;
+  font-size: 30px;
+  cursor: pointer;
+}
+.social-icon {
+  height: 47%;
+  width: 90px;
+  text-align: center;
+  padding-top: 16px;
+  background: azure;
+  bottom: 0;
+  align-items: center;
+  position: absolute;
+}
+.social-icon img {
+  margin: 15px 23px;
+  margin-right: 18px;
+  display: block;
+  padding: 8px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+@media (max-width: 700px) {
+  .vertical-bar {
+    display: none;
+  }
+  .banner-title {
+    font-size: 40px;
+  }
+}
+.icon5 {
+  margin-bottom: 11px;
+}
+img {
+  margin-right: 50%;
+}
+.btn a {
+  text-decoration: none;
+  color: midnightblue;
+}
